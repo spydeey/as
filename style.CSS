@@ -41,7 +41,7 @@ header {
 
 	padding: 40px 0 30px;
 	display: flex;
-	flex-warp: nowrap;
+	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: space-between;
 
