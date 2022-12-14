@@ -227,7 +227,7 @@ nav .nav-list li.lbtn:hover a{
     font-size:15px;
 }
 
-@media screen and (max-width:930px){
+@media screen and (max-width:100%){
     
     nav.hamburger-menu{
     
