@@ -1,1 +1,65 @@
-# as
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Anonymous</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheeet" type="text/css" href="STYLE.CSS">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        
+    </head>
+    <body>
+     <section class="hero">
+      <div class="main-width">
+       <header>
+        <div class="logo">
+         <i class="fa-solid fa-e"></i>
+        </div>
+         <nav>
+          <div class="hamburger-menu">
+           <span></span>
+           <span></span>
+           <span></span>
+          </div>
+           <ul class="nav-list">
+            <li><a class="menu__item" href="#">Home</a></li>
+            <li><a class="menu__item" href="#">About</a></li>
+            <li><a class="menu__item" href="#">My Project</a></li>
+            <li><a class="menu__item" href="#">Contact</a></li>
+            <li><a class="lbtn" href="#">Support</a></li>
+           </ul>
+         </nav>
+       </header>
+       <div class="container">
+        <div class="hero-text">
+         <h3>Hi There!</h3>
+         <h1>iam <span class="jsinput"></span></h1>
+         <p>Iam a full-stack developer and online premoter.Check my youtube channal for learning web development.</p>
+         <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+         </div>
+         <button type="btn2">More About Me</button>
+        </div>
+        <div class="bottom">
+         <p>© 2022 AS-All Rights Reserved.</p> 
+        </div>
+       </div>  
+      </div>
+     </section>
+     <script type="text/javascript" src="js/data.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     <script>
+       var typed = new Typed(".jsinput",{
+         strings:["AS","Full-Stack Developer"],
+         typeSpeed: 70,
+         backSpeed: 60,
+         loop:true
+         });
+     </script>
+    </body>
+</html>
